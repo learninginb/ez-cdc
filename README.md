@@ -9,7 +9,17 @@
 整体由，一个控制台前端服务，一个控制台后端服务和一个worker集群组成
 
 ez-cdc-console-web 
-ez-cdc-console-server
-ez-cdc-worker
+
+    控制台web端：登录，报表，用户管理，crud，看日志
+
+ez-cdc-console-server：
+
+    控制台server端：注册中心，报表+监控，任务调度，crud，邮件报警，登录
+
+ez-cdc-worker：
+
+    配置接收，状态上报，异常告警，ip上报，日志上传，任务执行
 
 控制台统一调度，worker执行具体的任务，元数据由redis保存
+
+中心化的架构
