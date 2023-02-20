@@ -9,6 +9,33 @@
     <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
 
+
+    <modules>
+        <module>security</module>
+    </modules>
+
+
+    <properties>
+        <powerjob.worker.version>4.0.1</powerjob.worker.version>
+        <java.version>11</java.version>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <versions-maven-plugin.version>2.3</versions-maven-plugin.version>
+        <hutool.version>5.7.21</hutool.version>
+        <lombok.version>1.18.12</lombok.version>
+        <liquibase.version>4.7.0</liquibase.version>
+        <mybatis.plus.version>3.4.1</mybatis.plus.version>
+        <mybatis.version>3.5.6</mybatis.version>
+        <debezium.version>1.9.7.Final</debezium.version>
+        <spring.boot.version>2.3.12.RELEASE</spring.boot.version>
+        <spring.cloud.version>Hoxton.SR12</spring.cloud.version>
+        <knife4j.version>2.0.9</knife4j.version>
+        <p6spy.version>3.9.0</p6spy.version>
+        <mysql.version>8.0.11</mysql.version>
+        <swagger.annotation.version>1.5.22</swagger.annotation.version>
+        <postgresql.version>42.2.14</postgresql.version>
+    </properties>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
